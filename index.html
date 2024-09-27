@@ -6,19 +6,105 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Top schedule title</title>
 </head>
+
 <body>
     <!-- Questo è un commento -->
-     <h1>The goddang comment deleted my title</h1>
-    <p>this is content of the page 
-    <strong>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</strong> 
-    Quidem ducimus repudiandae officia ipsum alias sequi inventore, 
-    minus numquam error soluta nisi perferendis quae earum saepe eaque pariatur. 
-    <em>Repellendus, asperiores consectetur!</em></p>
+    <h1>The goddang comment deleted my title</h1>
+    <p>this is content of the page
+        <strong>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</strong>
+        Quidem ducimus repudiandae officia ipsum alias sequi inventore,
+        minus numquam error soluta nisi perferendis quae earum saepe eaque pariatur.
+        <em>Repellendus, asperiores consectetur!</em>
+    </p>
 
-    <h2>this is the end, joking, second title</h2>
-    <p2>content of second title</p2>
+    <!-- Bottons and links  -->
+    <a href="http://google.com">This is a searcher</a>
+    <button>This is a Trump button, or Kim button</button>
     
-    <br><footer>and this is the true end called stinky footer</footer>
+    <!-- Lists and comms -->
+    <!-- Lista ordinata ossia numerata -->
+<h3>List item class 135</h3>
+        <ol>
+            <li>Item 1</li>
+            <li>Object 2</li>
+            <li>Poison</li>
+            <li>Crafted</li>
+            <li>Bag</li>
+        </ol>
+
+    <!-- Lista non ordinata -->
+<h4>Crewmates</h4>
+        <ul>
+            <li>Marco</li>
+            <li>Francesco</li>
+            <li>Rita</li>
+            <li>YuFei</li>
+            <li>Daniele</li>
+        </ul>
+
+    <!-- Immagini hehe, vanno dentro una cartella e non sparpagliate
+    si usano due attributi: src e alt, src sta per source 
+    (sorgente immagine, può stare nella cartella o su un sito)
+    mentre alt è la descrizione alternativa dell'immagine. 
+    Per aprire un immagine locale usare il "./"
+    si ricorda che il punto indica la posizione corrente 
+    quindi non va a pescare altrove. -->
+
+    <!-- Percorso relativo -->
+    <img src="./img/25629.jpeg" alt="phone wallpaper" height="300pxl" width="200pxl">
+    <img src="./img/windows-11-stock-purple-abstract-black-background-amoled-3840x2160-9056.jpg" alt="desktop wallpaper" height="150pxl" width="300pxl">
+
+    <!-- Percorso assoluto -->
+    <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pinterest.com%2Fpin%2Fblack-aesthetic-lockscreen-wallpaper-4k--997125173725191025%2F&psig=AOvVaw2y7Wn50ELbhiVBWeGt6s6M&ust=1727518248260000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCKj8h5Tx4ogDFQAAAAAdAAAAABAJ" alt="phone black wallpaper">
     
+    <!-- Tabella -->
+     <table>
+        <!-- Intestazione tabella -->
+        <thead>
+            <tr>
+                <th>Countries</th>
+                <th>Language</th>
+                <th>Population</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Italy</td>
+                <td>Italian</td>
+                <td>58mln</td>
+            </tr>
+            <tr>
+                <td>France</td>
+                <td>French</td>
+                <td>47mln</td>
+            </tr>
+            <tr>
+                <td>Germany</td>
+                <td>German</td>
+                <td>55mln</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2">Total Population</td> 
+            <!-- Per sovrapporre le colonne vuote usare colspan -->
+                <td>155mln</td>
+            </tr>
+        </tfoot>
+     </table>
+    
+    <!-- Self closing tags: <br> <hr> e <img src="" alt=""> -->
+    
+    <!-- Tag di contenimento -->
+     <section>
+        <h2>Le pagine sono divise in sezioni</h2>
+        <p>Questo è il contenuto della sezione 2</p>
+     </section>
+
+     <div>
+        <p>Le divisioni sono blocchi più piccoli di una determinata sezione</p>
+     </div>
+
 </body>
+
 </html>
